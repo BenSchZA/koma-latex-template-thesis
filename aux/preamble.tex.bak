@@ -1,6 +1,5 @@
 \documentclass[10pt,twoside,BCOR=12mm,DIV=10]{scrbook}
 \linespread{1.25}
-\KOMAoptions{DIV=last}
 
 \usepackage[english]{babel}
 \usepackage{amsmath}
