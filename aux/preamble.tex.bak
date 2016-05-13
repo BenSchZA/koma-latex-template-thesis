@@ -1,10 +1,17 @@
+\documentclass[10pt,twoside,BCOR=12mm,DIV=10]{scrbook}
+\linespread{1.25}
+\KOMAoptions{DIV=last}
+
 \usepackage[english]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage[T1]{fontenc}
-\usepackage{charter}
-%\setkomafont{disposition}{\bfseries}
-%\usepackage{lmodern}
-\usepackage{lipsum}
+\usepackage{charter} %set font
+%\setkomafont{disposition}{\bfseries} %set bold font
+\usepackage{lipsum} %content filler
+
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.eps} %images without extension
+
+\usepackage{textcomp} %copyright symbols
