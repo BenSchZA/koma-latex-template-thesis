@@ -7,9 +7,9 @@ KOMA-script LaTeX template for engineering thesis.
 * Arara build tool.
 
 **Useful git commands:**
-git init
-git add -A
-git commit -m "..."
-git remote add origin ...
-git remote remove origin
-git rm --cached <file>
+* git init
+* git add -A
+* git commit -m "..."
+* git remote add origin ...
+* git remote remove origin
+* git rm --cached <file>
