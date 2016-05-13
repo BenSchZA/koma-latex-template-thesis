@@ -1,0 +1,24 @@
+\documentclass[twoside,DIV=15,BCOR=12mm]{scrbook}
+%\includeonly{titlepage, ch01}
+\input{aux/preamble.tex}
+\begin{document}
+
+\frontmatter
+\include{titlepage}
+\include{abstract}
+\include{acknowledgements}
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter
+\include{ch01}
+\include{ch02}
+
+\appendix
+\chapter{Code}
+
+%\backmatter
+
+\end{document}
