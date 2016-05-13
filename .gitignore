@@ -5,6 +5,7 @@
 *.acr
 *.alg
 *.aux
+*.bak
 *.bbl
 *.bcf
 *.blg
