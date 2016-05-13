@@ -1,3 +1,10 @@
+% Arara build configuration:
+% arara: pdflatex: { synctex: on }
+% arara: bibtex
+% arara: nomencl: {style: 'nomencl'}
+% arara: pdflatex: { synctex: on }
+% arara: pdflatex: { synctex: on }
+
 %\includeonly{titlepage, ch01}
 \input{aux/preamble.tex}
 
@@ -10,15 +17,22 @@
 \include{termsofreference}
 
 \tableofcontents
+
 \listoffigures
 \listoftables
 
+\printnomenclature
+
 \mainmatter
-\include{ch01}
-\include{ch02}
+\include{chapters/ch01}
+\include{chapters/ch02}
+
+\bibliography{bibliography}
+\bibliographystyle{ieeetran}
+
 
 \appendix
-\include{ap01}
+\include{appendices/ap01}
 
 %\backmatter
 
