@@ -12,6 +12,7 @@
 
 \frontmatter
 \include{misc/titlepage}
+\pagestyle{plain}				% display just page numbers
 \include{misc/declaration}
 \include{misc/abstract}
 \include{misc/acknowledgements}
@@ -19,12 +20,16 @@
 
 \tableofcontents
 
+
 \listoffigures
+
 \listoftables
+
 
 \printnomenclature
 
 \mainmatter
+\pagestyle{maincontentstyle} 	% fancy header and footer
 %ch01: Introduction
 %ch02: Literature Review
 %ch03: Project Plan and Methodology

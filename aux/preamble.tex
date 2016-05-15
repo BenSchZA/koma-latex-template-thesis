@@ -1,20 +1,37 @@
-\documentclass[listof=totoc,bibliography=totoc,11pt,twoside,BCOR=12mm,DIV=11]{scrbook}
-\linespread{1.25}
-%\usepackage{showframe}  %to show typing area, header, footer, margins
+\documentclass[%
+	paper=A4,					
+	twoside,				
+	%openright,					
+	%parskip=full,				
+	chapterprefix=true,			
+	11pt,						
+	headings=normal,			
+	bibliography=totoc,			
+	listof=totoc,				
+	titlepage=on,				
+	captions=tableabove,		 
+	draft=false,				
+]{scrbook}%
 
 \usepackage[english]{babel}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+
 \usepackage[T1]{fontenc}
-\usepackage{charter} %set font
-%\setkomafont{disposition}{\bfseries} %set bold font
 
-%\usepackage[round,mcite]{natbib} %bibliography
+\usepackage[					% clean thesis style
+	figuresep=colon,%
+	sansserif=false,%
+	hangfigurecaption=false,%
+	hangsection=true,%
+	hangsubsection=true,%
+	colorize=full,%
+	colortheme=bluemagenta,%
+]{cleanthesis}
 
-\usepackage[hidelinks]{hyperref} %hyperlinks in pdf
+\usepackage[hidelinks]{hyperref}
 
-\usepackage{blindtext}  %to create a dummy document
 \usepackage{lipsum} %content filler
 
 \usepackage{graphicx}
